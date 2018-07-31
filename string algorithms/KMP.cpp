@@ -5,6 +5,7 @@
     txt is text and pat is the pattern to be searched
     vector pos stores the end position where pattern is found
     (0-based indexing)
+    Time Conmplexity: O(pat.length + txt.length)
         */
         
         
