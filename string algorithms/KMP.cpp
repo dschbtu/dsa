@@ -26,7 +26,7 @@ vector<int> kmp(string txt, string pat)
 		LPS[i] = k;
 	}
 	vector<int> pos;
-	for(int i = l; i < n; ++i)
+	for(int i = 0; i < n; ++i)
 	{
 		if (LPS[i] == l)
 		{
