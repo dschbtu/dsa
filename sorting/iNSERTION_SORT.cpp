@@ -25,10 +25,10 @@ void InsertionSort(vector<int>& arr)
     Loop Invariant->
         arr[0..i-1] is sorted
         
-        *Initialization*-> Loop starts with i=1,Thus there is only one element                 before arr[1] i.e. arr[0] so it is already sorted.
+        *Initialization*-> Loop starts with i=1,Thus there is only one element before arr[1] i.e. arr[0] so it is already sorted.
         
-        *Maintenance*-> Since we iterate the array backwards until the current              element is smaller than the previous element, thus we               place every element at its correct postion.The loop                 invariant is maintained in every iteration.
+        *Maintenance*-> Since we iterate the array backwards until the current element is smaller than the previous element, thus we place every element at its correct postion.The loop invariant is maintained in every iteration.
         
-        *Termination*-> When the loop ends,the array is sorted in increasing                order.
+        *Termination*-> When the loop ends,the array is sorted in increasing order.
         
             */
